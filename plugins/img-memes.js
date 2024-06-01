@@ -7,8 +7,8 @@ let handler = async(m, { conn, usedPrefix, command }) => {
       await conn.sendFile(m.chat, meme, '', '', m) 
       
 }
-handler.help = ['meme']
+handler.help = ['مميز']
 handler.tags = ['img']
-handler.command = ['meme', 'memes'] 
+handler.command = ['meme', 'مميز'] 
 
 export default handler
